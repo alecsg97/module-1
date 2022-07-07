@@ -1,0 +1,17 @@
+/* A selector is what is used to target an html element 
+in order to give it styling */
+
+body {
+
+    padding: 0 25px;
+    /* padding goes clock wise top right bottom left, 4 values */
+}
+
+
+#section-2 h2 {
+    background-color: orangered;
+    margin: 0;
+    margin-bottom: 200px;
+    padding-top: 135px;
+    border: 9px solid lime;
+}
