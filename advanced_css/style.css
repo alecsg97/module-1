@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 8rem 6rem 0;
+    background-color: #cca1dd;
+}
+
+nav {
+    background-color: cyan;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 96vw;
+    padding: 0 2vw;
+    height: 8rem;
+    /* flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14%;
+}
+
+nav div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7%;
+}
+
+/* to center any content within an element you use
+display flex
+align items center
+justify content center */
+
+nav > a img {
+    width: 6 rem;
+}
+
+nav > div.auth-links a.logout {
+   /* visibility: hidden; */
+   display: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container div {
+    width: 24vw;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container div > img {
+    width: 100%;
+}
+
+.container div.box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+@media only screen and (max-width: 720px)
+    body {
+        background-color: aquamarine;
+    }
+    nav {
+        background-color: chartreuse;
+    }
+
+
+@media only screen and (min-width: 420px)
+    body {
+        background-color: red;
+    }
+    nav {
+        background-color: orange;
+    }   
+
