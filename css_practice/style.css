@@ -1,0 +1,26 @@
+body {
+    padding-top: 3rem;
+}
+
+div#container {
+    padding: 0 33.2rem;
+    }
+
+#topnav {
+
+    background-color: aqua;
+    height: 2.5rem;
+    position: fixed;
+    width: 100vw;
+    padding: 25px 40px 0px;
+    top: 0;
+    left: 0;   
+}
+
+.navigation span {
+    margin: 0 13.5rem;
+}
+
+#content img {
+    width: 39rem;
+}
